@@ -7,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Badge } from '@/components/ui/badge';
 import { Search, Filter } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
-import heroImage from '@/assets/easwari-campus.jpg';
+import heroImage from '@/assets/easwari-campus-bg.jpg';
 
 interface DashboardProps {
   user: { name: string; email: string };
