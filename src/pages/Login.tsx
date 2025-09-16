@@ -49,7 +49,7 @@ export function Login({ onLogin, onSwitchToRegister }: LoginProps) {
   return (
     <AuthCard
       title="Welcome Back"
-      description="Sign in to your Campus Lost & Found account"
+      description="Sign in to SRM Easwari Engineering College Lost & Found"
     >
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="space-y-2">

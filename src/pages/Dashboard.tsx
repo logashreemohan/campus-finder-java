@@ -7,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Badge } from '@/components/ui/badge';
 import { Search, Filter } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
-import heroImage from '@/assets/hero-image.jpg';
+import heroImage from '@/assets/easwari-campus.jpg';
 
 interface DashboardProps {
   user: { name: string; email: string };
@@ -121,10 +121,10 @@ export function Dashboard({ user, onLogout, onAddItem }: DashboardProps) {
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="text-white max-w-2xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Campus Lost & Found
+              SRM Easwari Engineering College
             </h1>
             <p className="text-xl mb-6 text-gray-200">
-              Helping our campus community reunite with their lost belongings
+              Campus Lost and Found System
             </p>
             <div className="flex flex-wrap gap-4">
               <Badge variant="secondary" className="bg-white/20 text-white border-white/30 px-4 py-2 text-lg">
